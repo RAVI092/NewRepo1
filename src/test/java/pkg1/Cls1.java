@@ -20,8 +20,7 @@ public class Cls1 {
 		WebDriver d1=new ChromeDriver();
 		d1.navigate().to("https://www.google.com");
 		
-		FileInputStream f=new FileInputStream("");
-	
+		
 		
 		d1.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys("ravi");
 		
